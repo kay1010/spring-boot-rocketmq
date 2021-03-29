@@ -1,0 +1,8 @@
+server:
+  port: 8060
+  servlet:
+    context-path: /
+rocketmq:
+  name-server: 192.168.170.129:9876;192.168.170.129:9877
+  producer:
+    group: group1
